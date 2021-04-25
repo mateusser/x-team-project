@@ -1,0 +1,1 @@
+const showAlert = () => alert('clicked')

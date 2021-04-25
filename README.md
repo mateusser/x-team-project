@@ -1,7 +1,9 @@
 # x-team-project
 
 This project was done in 4 hours.
+
 I focused in getting the main page done.
+
 There were no time to add javascript, other pages, mobile design.
 
 I used BEM to name my CSS classes.

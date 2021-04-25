@@ -78,16 +78,16 @@ nav > * {
 }
 
 .Hero__info {
-  flex-grow: 1;
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  flex-grow: 1;
   justify-content: flex-start;
 }
 
 .Hero__infoDescription {
-  text-align: right;
   color: #636363;
+  text-align: right;
 }
 
 h1 {
@@ -104,22 +104,22 @@ h5 {
 }
 
 .Hero__button {
-  margin-top: 62px;
   justify-self: left;
+  margin-top: 62px;
 }
 
 .Icons {
-  display: inline-flex;
   align-items: center;
+  display: inline-flex;
   justify-content: center;
   width: 100%;
 }
 
 .IconCard {
-  margin: 80px;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 80px;
 }
 
 .IconCard__title {
@@ -133,4 +133,96 @@ h5 {
   letter-spacing: 0.05em;
   line-height: 150%;
   text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 92px 62px 35px;
+}
+
+.Footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) auto;
+  grid-template-rows: 100%;
+  margin-bottom: 32px;
+} 
+
+.FooterNavigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: flex-start;
+  margin-right: 70px;
+}
+
+.FooterNavigation__title {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 18px;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.FooterNavigation__list > * {
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.Newsletter {
+  color: white;
+}
+
+.Newsletter > * {
+  margin-bottom: 18px;
+}
+
+.Newsleter__paragraph {
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  line-height: 150%;
+}
+
+.Newsletter__input {
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  line-height: 150%;
+  width: 100%;
+  text-align: right;
+}
+
+.Newsletter__input::placeholder {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  line-height: 150%;
+}
+
+.Newsletter__icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100%;
+  width: 200px;
+}
+
+.FooterEnding {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  line-height: 40px;
+}
+
+.FooterEnding > :nth-child(2) {
+  margin: 0 14px 0 18px;
+}
+
+.FooterLink {
+  text-decoration: underline;
+  cursor: pointer;
 }

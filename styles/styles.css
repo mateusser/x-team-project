@@ -1,3 +1,109 @@
-body {
-  background-color: gray;
+header {
+  width: 100%;
+}
+
+.Banner {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  line-height: 24px;
+  padding: 8px;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 145px 1fr;
+  grid-template-rows: 100%;
+  padding: 32px;
+}
+
+nav > * {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.Navigation__left > * {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 18px;
+  margin: 0 36px;
+  text-transform: capitalize;
+}
+
+.Navigation__right {
+  justify-content: flex-end;
+}
+
+.Navigation__right > * {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 18px;
+  margin: 0 20px;
+  text-transform: capitalize;
+}
+
+.Navigation__location {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.Navigation__locationIcon {
+  margin-right: 8px;
+}
+
+.Hero {
+  align-items: center;
+  background-color: #E9E9E9;
+  display: inline-flex;
+  height: 620px;
+  justify-content: space-between;
+  padding: 95px 180px 65px;
+  width: 100%;
+}
+
+.Hero > img {
+  margin-right: 90px;
+}
+
+.Hero__info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.Hero__infoText {
+  text-align: right;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+h5 {
+  color: #636363;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 150%;
+}
+
+.Hero__button {
+  margin-top: 62px;
+  justify-self: left;
 }
